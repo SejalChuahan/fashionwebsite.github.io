@@ -1,0 +1,569 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#topbar {
+    background: black;
+    width: 100%;
+}
+
+#container {
+    max-width: 1400px;
+   position: relative;
+   margin: auto;
+    box-sizing: border-box;
+}
+
+
+#header {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header_section1 {
+    width: 97%;
+    display: grid;
+    grid-template-areas: "icons1 icons1 select";
+}
+
+#icons1 {
+    grid-area: "icons1";
+}
+
+#icons1 ul {
+    display: grid;
+    grid-template-columns: 13% 13% 13% 13% 13% 13%;
+    margin-left: 82%;
+    grid-column-gap: 0.4rem;
+}
+
+#icons1 ul li {
+    list-style: none;
+}
+
+#icons1 ul li a {
+    text-decoration: none;
+}
+
+#icons1 ul li a img {
+    width: 81%;
+}
+
+select {
+    grid-area: "select";
+}
+
+#currency {
+    height: 1.5rem;
+    margin: 26% 0% 0% 0%;
+    border: none;
+}
+
+#logo_bar {
+    display: grid;
+    grid-template-areas: "logo cart";
+}
+
+
+
+
+
+#logo {
+    width: 15%;
+grid-area: "logo";
+margin: 0% 0% 0% 2%;
+}
+
+#logo img {
+    width: 100%;
+}
+
+#cart {
+    grid: "cart";
+    margin: 0% 0% 0% 80%;
+}
+
+#cart ul {
+    display: grid;
+    grid-template-columns: 20% 20%;
+    grid-column-gap: 1rem;
+}
+
+#cart ul li {
+    list-style: none;
+}
+
+#cart ul li a {
+    text-decoration: none;
+}
+
+#cart ul li a img {
+    width: 96%;
+}
+
+nav {
+    width: 100%;
+    
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10%;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    background: black;
+    color: white;
+    padding: 1% 3%;
+}
+#banner {
+    width: 100%;
+}
+
+#banner img {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    display: grid;
+    grid-template-areas: 'links section1 section1';
+    grid-column-gap: 1rem;
+}
+
+#section_links {
+    box-sizing: border-box;
+    display: grid;
+    grid-area: 'links';
+    margin-top: 6rem;
+}
+
+#section_links ul {
+    display: grid;
+    grid-template-rows: 2% 2% 2% 2% 2% 2% 2%;
+    grid-row-gap: 0.2rem;
+}
+
+#section_links ul li {
+    list-style: none;
+}
+
+#section_links ul li a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding: 0.6rem 8rem 0.6rem 1rem;
+    color: black;
+    display: block;
+}
+
+#section1 {
+    display: grid;
+    grid-area: 'section1';
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 4%;
+    padding: 0%;
+}
+
+#section1_p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0%;
+    padding: 0px 15px;
+    line-height: 1.5;
+}
+
+.womenswear {
+    display: grid;
+    grid-template-areas: 'img1 img1 img1';
+    justify-items: center;
+}
+
+.section_img1 {
+    width: 55%;
+    grid-area: 'img1';
+    margin-top: 8%;
+    position: relative;
+}
+
+.section_img1 img {
+    width: 100%;
+}
+
+
+.section_img1 a {
+    text-decoration: none;
+}
+.section_img1_hover{
+   
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section_img1_btn a{
+    /* font-size: 20px; */
+    color: white;
+    background: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.section_img1:hover img{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.section_img1:hover .section_img1_hover{
+    opacity: 1;
+    transition: 0.5s ease-in;
+}
+
+.item_name {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.brand_name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: grey;
+}
+
+.item_price {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+
+
+#section2 {
+    width: 100%;
+    display: grid;
+    grid-template-areas: "section2 section2 section2";
+    margin-left: 5%;
+    margin-top: 5%;
+    box-sizing: border-box;
+    grid-row-gap: 2rem;
+}
+
+.section2_img1 {
+    display: grid;
+    justify-content: center;
+}
+
+.section2_img1 img {
+    width: 15%;
+    grid-area: "section2";
+}
+
+.section2_p1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+    margin: 0%;
+    padding: 0%;
+}
+
+.section2_btn {
+    width: 70%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    background: black;
+    color: white;
+    border: none;
+    line-height: 2;
+}
+.section2_btn:hover{
+    background: rgb(204, 201, 199);
+    color: black;
+
+}
+
+footer {
+    box-sizing: border-box;
+    background: rgb(216, 214, 214);
+}
+
+#footer_p1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4rem;
+    margin-left: 5%;
+    margin-top: 6%;
+}
+
+
+
+.footer_icons {
+    width: 60%;
+    margin-left: 2%;
+}
+
+.footer_icons ul {
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5% 5%;
+}
+
+.footer_icons ul li {
+    list-style: none;
+}
+
+.footer_icons ul li a {
+    text-decoration: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.footer_icons ul li img {
+    width: 75%;
+}
+
+#footer_links {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.links_p1 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 6%;
+}
+
+.footer_links1 {
+    width: auto;
+}
+
+.footer_links1 ul {
+    display: grid;
+}
+
+.footer_links1 ul li {
+    list-style: none;
+}
+
+.footer_links1 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#payment {
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5% 5%;
+    margin-left: 40%;
+    grid-column-gap: 10px;
+}
+
+#payment img {
+    width: 56%;
+}
+
+#copyright {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#powered {
+    text-align: center;
+}
+
+@media only screen and (min-width:320px) and (max-width: 600px) {
+    *{
+        overflow-x: hidden;
+    }
+    .header_section1{
+        display: none;
+    }
+    #logo_bar{
+        display: none;
+    }
+    nav ul {
+        display: block;
+    }
+    nav ul li {
+        padding-top: 1.8%;
+      }
+    nav ul li a {
+        font-size: 13px;
+    }
+    #section_links {
+        display: none;
+    } 
+    .womenswear {
+        grid-template-areas: 'img1 img1';
+        justify-items: center;
+        margin-left: 4%;
+    }
+    .section_img1 {
+        width: 80%;
+    }
+    .section_img1_btn a{
+        font-size: 13px;
+        color: white;
+        background: black;
+        border-radius: 5px;
+        padding: 2px;
+        
+    }
+    #section2 {
+        grid-template-areas: "section2";
+        margin-left: 10%;
+        margin-top: 5%;
+        grid-row-gap: 2rem;
+    }
+    .item_name {
+        font-size: 0.9rem;
+    }
+    .brand_name {
+        font-size: 0.9rem;
+    }
+    .item_price {
+        font-size: 0.9rem;
+    }
+    
+#footer_p1 {
+    font-size: 1.3rem;
+    margin: 6% 0% 0% 5%;
+}
+
+.footer_icons ul {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10%;
+    grid-column-gap: 4%;
+}
+.footer_icons ul li img {
+    width: 70%;
+}
+#footer_links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer_links1 ul {
+    margin-top: 1%;
+}
+.links_p1 {
+    margin-bottom: 0%;
+}
+
+#payment {
+    grid-template-columns: 10% 10% 10% 10% 10%;
+    margin-left: 28%;
+}
+#payment img {
+    width: 72%;
+}
+}
+
+
+@media only screen and (min-width:600px) and (max-width:992px) {
+    *{
+        overflow-x: hidden;
+    }
+    #section_links {
+        display: none;
+    }
+    .womenswear {
+        grid-template-areas: 'img1 img1';
+        justify-items: center;
+        margin-left: 4%;
+    }
+    .section_img1 {
+        width: 80%;
+    }
+    #section2 {
+        grid-template-areas: "section2";
+        margin-left: 10%;
+        margin-top: 5%;
+        grid-row-gap: 2rem;
+    }
+    
+}
+
+@media only screen and (min-width:600px) and (max-width:768px) {
+    .header_section1{
+        display: none;
+    }
+    #logo_bar{
+        display: none;
+    }
+    nav ul {
+        display: block;
+    }
+    nav ul li {
+        padding-top: 1.8%;
+      }
+    nav ul li a {
+        font-size: 13px;
+    }
+    
+}
+
+
+@media only  screen and (min-width: 992px) and (max-width:1200px){
+    *{
+        overflow-x: hidden;
+    }
+    #icons1 ul {
+        margin-left: 78%;
+      
+    }
+    #cart {
+        margin: 0% 0% 0% 68%;
+    }
+   
+}
+@media only screen and (min-width:768px) and (max-width: 1200px) {
+    #icons1 ul {
+        margin-left: 72%;
+      
+    }
+    #cart {
+        margin: 0% 0% 0% 59%;
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: 15% 15% 10% 18% 15%;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width:768px) {
+    .womenswear {
+        grid-template-areas: 'img1 img1 img1';
+    }
+
+}
+
+
+@media only screen and (min-width:992px) {
+    *{
+        overflow-x: hidden;
+    }
+    #section_links {
+        display: grid;
+    }
+}
+
+
